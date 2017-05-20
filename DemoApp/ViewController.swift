@@ -14,6 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         view.backgroundColor = .yellow
+        let myButton = UIButton(frame: CGRect(x: 0, y: 0, width: view.frame.width - 40, height: 30))
         // Do any additional setup after loading the view, typically from a nib.
     }
 
